@@ -35,7 +35,7 @@ function deleteMe(newMessage){
     text.remove();
 
 }
-
+ 
 function getJoke(){
     fetch('https://api.icndb.com/jokes/random')
     .then((response) => response.json())
